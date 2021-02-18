@@ -15,5 +15,10 @@
     "gulp-clean-css": "^4.3.0",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^4.1.0"
-  }
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ]
 }

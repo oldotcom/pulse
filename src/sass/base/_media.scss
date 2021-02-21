@@ -107,9 +107,6 @@
     }
     .advantage {
         padding: 25px 0 25px 0;
-        &__header {
-            line-height: 33px;
-        }
         &__wrapper {
             margin-top: 10px;
             flex-wrap: wrap;
@@ -119,12 +116,15 @@
             margin-top: 20px;
             width: 100%;
         }
-        &__title {
+        &__subtitle {
             margin-top: 18px;
         }
         &__descr {
             margin-top: 18px;
         }
+    }
+    .title {
+        line-height: 33px;
     }
     
 }

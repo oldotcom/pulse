@@ -2,15 +2,6 @@
     min-height: 473px;
     padding: 72px 0 67px 0;
     background: #F6F6F6;
-    &__header {
-        margin-bottom: 0;
-        font-weight: 700;
-        font-size: 30px;
-        line-height: 25px;
-        text-align: center;
-        text-transform: uppercase;
-        color: #0D0D0D;
-    }
     &__wrapper {
         display: flex;
         justify-content: space-between;
@@ -23,7 +14,7 @@
             margin: 0 auto;
         }
     }
-    &__title {
+    &__subtitle {
         margin-top: 42px;
         font-weight: 700;
         font-size: 18px;

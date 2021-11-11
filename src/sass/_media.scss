@@ -12,7 +12,13 @@
     }
     .header {
         &__logo {
-            width: 150px;
+            width: 200px;
+        }
+        &__official {
+            font-size: 11px;
+            span {
+                font-size: 15px;
+            }
         }
         &__phone {
             font-size: 15px;
@@ -42,7 +48,8 @@
         }
     }
     .header {
-        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
         &__official {
             margin-top: 10px;
         }

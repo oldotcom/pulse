@@ -105,4 +105,20 @@
             margin-top: 12px;
         }
     }
+    .consultation {
+        padding: 40px 0;
+        &__descr {
+            font-size: 17px;
+            text-align: center;
+        }
+    }
+    .title {
+        &_left {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+    .feed-form {
+        margin: 36px auto 0 auto;
+    }
 }

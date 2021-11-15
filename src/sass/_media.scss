@@ -7,6 +7,14 @@
            width: 210px;
         }
     }
+    .carousel {
+        &__inner {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+    }
 }
 @media (max-width: 767px) {
     .container {
@@ -120,5 +128,8 @@
     }
     .feed-form {
         margin: 36px auto 0 auto;
+    }
+    .carousel {
+        padding: 45px 0;
     }
 }

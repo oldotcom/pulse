@@ -132,4 +132,22 @@
     .carousel {
         padding: 45px 0;
     }
+    .catalog {
+        padding-bottom: 40px;
+        &__tabs {
+            flex-direction: column;
+            margin-top: 40px;
+        }
+        &__tab {
+            &:nth-child(2) {
+                margin-top: 20px;
+            }
+            &:nth-child(3) {
+                margin-top: 20px;
+            }
+        }
+        &__content {
+            margin-top: 40px;
+        }
+    }
 }

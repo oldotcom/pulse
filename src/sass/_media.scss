@@ -150,4 +150,22 @@
             margin-top: 40px;
         }
     }
+    .feed {
+        padding: 0 10px;
+        &__block {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+        }
+        &__text {
+            margin: 0;
+        }
+        &__name {
+            margin-top: 20px;
+            text-align: center;
+        }
+        &__count {
+            text-align: center;
+        }
+    }
 }

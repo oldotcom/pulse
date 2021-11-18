@@ -95,7 +95,7 @@
         }
     }
     .button {
-        margin-top: 20px;
+        margin-top: 0px;
         width: 100%;
         &_main {
             margin-top: 45px;
@@ -125,9 +125,10 @@
         }
     }
     .consultation {
+        min-height: 660px;
         padding: 40px 0;
         &__descr {
-            font-size: 17px;
+            font-size: 19px;
             text-align: center;
         }
     }
@@ -184,4 +185,28 @@
             margin: 0 5px;
         }
     }
+    .feed-form {
+        &_320 {
+            margin: 20px auto 0 auto;
+            width: 250px;
+        }
+    }
+    .modal {
+        padding: 20px 10px;
+        width: 280px;
+        min-height: 350px;
+        &__close {
+            top: -40px;
+            right: 0px;
+            line-height: 30px;
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        &__descr {
+            margin-top: 5px;
+            font-size: 12px;
+        }
+    }
 }
+

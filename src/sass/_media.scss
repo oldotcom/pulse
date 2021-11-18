@@ -15,6 +15,12 @@
             }
         }
     }
+    .footer {
+        &__info {
+            padding: 50px 50px 60px 50px;
+            width: 350px;
+        }
+    }
 }
 @media (max-width: 767px) {
     .container {
@@ -42,6 +48,11 @@
     .advantages {
         &__item {
            width: 160px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 100%;
         }
     }
 }
@@ -166,6 +177,11 @@
         }
         &__count {
             text-align: center;
+        }
+    }
+    .footer {
+        &__social-item {
+            margin: 0 5px;
         }
     }
 }

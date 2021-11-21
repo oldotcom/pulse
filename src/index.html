@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -64,14 +65,14 @@
             
             <div class="advantages__wrapper">
                 <div class="advantages__item">
-                    <img src="icons/advantages/cup.png" alt="Cup">
+                    <img src="icons/advantages/cup.png" alt="Cup" class="advantages__icon">
                     <div class="advantages__subtitle">Делимся опытом</div>
                     <div class="advantages__descr">
                         Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!
                     </div>
                 </div>
                 <div class="advantages__item">
-                    <img src="icons/advantages/heart.png" alt="Heart">
+                    <img src="icons/advantages/heart.png" alt="Heart" class="advantages__icon advantages__icon_animated">
                     <div class="advantages__subtitle">Заботимся о здоровье</div>
                     <div class="advantages__descr">
                         Мы работаем для того,<br> 
@@ -81,7 +82,7 @@
                     </div>
                 </div>
                 <div class="advantages__item">
-                    <img src="icons/advantages/shoe.png" alt="Shoe">
+                    <img src="icons/advantages/shoe.png" alt="Shoe" class="advantages__icon">
                     <div class="advantages__subtitle">Учим бегать</div>
                     <div class="advantages__descr">
                         Помогаем с обучением<br> 
@@ -477,7 +478,7 @@
         <div class="container">
             <div class="title">отзывы клиентов</div>
 
-            <div class="feed__block">
+            <div class="feed__block animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="0s">
                 <img src="img/feed/photo_1.png" alt="photo" class="feed__img">
                 <div class="feed__text">
                     <div class="feed__name">
@@ -493,7 +494,7 @@
                     </div>
                 </div>
             </div>
-            <div class="feed__block">
+            <div class="feed__block animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="0.5s">
                 <img src="img/feed/photo_2.png" alt="photo" class="feed__img">
                 <div class="feed__text">
                     <div class="feed__name">
@@ -508,7 +509,7 @@
                     </div>
                 </div>
             </div>
-            <div class="feed__block">
+            <div class="feed__block animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="0.5s">
                 <img src="img/feed/photo_3.png" alt="photo" class="feed__img">
                 <div class="feed__text">
                     <div class="feed__name">
@@ -583,6 +584,7 @@
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
